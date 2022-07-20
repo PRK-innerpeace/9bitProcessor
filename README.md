@@ -24,4 +24,5 @@ so ROM size is 2^10=1024 and my instruction memory is 9 bits wide, to hold my 9-
 
 # List all instructions supported and their opcodes/formats
 <img width="605" alt="image" src="https://user-images.githubusercontent.com/67783915/180000051-73798f2a-f264-4da6-8e52-1a982af75509.png">
-<img width="482" alt="image" src="https://user-images.githubusercontent.com/67783915/180000358-9260fc19-1e96-477a-9efb-df88ab9bade5.png">
+<img width="692" alt="image" src="https://user-images.githubusercontent.com/67783915/180000815-73c65b7e-0fd6-40dd-9ba4-0006b2cc364f.png">
+
