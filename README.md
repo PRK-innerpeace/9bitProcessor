@@ -26,3 +26,6 @@ so ROM size is 2^10=1024 and my instruction memory is 9 bits wide, to hold my 9-
 <img width="605" alt="image" src="https://user-images.githubusercontent.com/67783915/180000051-73798f2a-f264-4da6-8e52-1a982af75509.png">
 <img width="692" alt="image" src="https://user-images.githubusercontent.com/67783915/180000815-73c65b7e-0fd6-40dd-9ba4-0006b2cc364f.png">
 
+# about P1
+this is assembly program running on this processor
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/67783915/180001254-3ea61db5-ec6e-45db-bdb8-7936335bc43e.png">
