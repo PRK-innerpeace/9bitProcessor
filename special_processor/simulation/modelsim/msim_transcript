@@ -1,0 +1,108 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do specific_cpu_run_msim_gate_systemverilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work gate_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+. {specific_cpu_6_1200mv_85c_slow.svo}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 14:15:54 on Mar 15,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+." specific_cpu_6_1200mv_85c_slow.svo 
+# -- Compiling module TopLevel
+# 
+# Top level modules:
+# 	TopLevel
+# End time: 14:15:55 on Mar 15,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/Program\ coding/Verilog\ project/special_processor {D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 14:15:55 on Mar 15,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Program coding/Verilog project/special_processor" D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv 
+# -- Compiling module FinalSubmission_tb
+# 
+# Top level modules:
+# 	FinalSubmission_tb
+# End time: 14:15:55 on Mar 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  FinalSubmission_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" FinalSubmission_tb 
+# Start time: 14:15:55 on Mar 15,2022
+# Loading sv_std.std
+# Loading work.FinalSubmission_tb
+# Loading work.TopLevel
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 10.4d Compiler 2015.12 Dec 30 2015
+# 
+# Loading instances from specific_cpu_6_1200mv_85c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: Design size of 11240 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# Loading timing data from specific_cpu_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalSubmission_tb File: D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Administrator  Hostname: DESKTOP-96N3LGF  ProcessID: 20100
+# 
+#           Attempting to use alternate WLF file "./wlft6483kv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft6483kv
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# *** P1 Start
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& nosloadsclr:37781 ps, d:37809 ps, 157 ps );
+#    Time: 37809 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[4][1] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:37821 ps, asdata:37862 ps, 157 ps );
+#    Time: 37862 ps  Iteration: 1  Instance: /FinalSubmission_tb/dut/\RF1|Registers[4][2] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:37822 ps, asdata:37936 ps, 157 ps );
+#    Time: 37936 ps  Iteration: 1  Instance: /FinalSubmission_tb/dut/\RF1|Registers[4][6] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:57806 ps, asdata:57841 ps, 157 ps );
+#    Time: 57841 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[0][7] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:57806 ps, asdata:57848 ps, 157 ps );
+#    Time: 57848 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[0][6] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:57807 ps, asdata:57853 ps, 157 ps );
+#    Time: 57853 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[0][3] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:57806 ps, asdata:57889 ps, 157 ps );
+#    Time: 57889 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[0][6] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:57822 ps, asdata:57959 ps, 157 ps );
+#    Time: 57959 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[0][1] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:137821 ps, asdata:137854 ps, 157 ps );
+#    Time: 137854 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[1][0] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& nosloadsclr:137807 ps, d:137860 ps, 157 ps );
+#    Time: 137860 ps  Iteration: 1  Instance: /FinalSubmission_tb/dut/\RF1|Registers[1][7] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:137793 ps, asdata:137876 ps, 157 ps );
+#    Time: 137876 ps  Iteration: 1  Instance: /FinalSubmission_tb/dut/\RF1|Registers[1][4] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:137807 ps, asdata:137889 ps, 157 ps );
+#    Time: 137889 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[1][6] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:207821 ps, asdata:207853 ps, 157 ps );
+#    Time: 207853 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[1][1] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& nosloadsclr:207807 ps, d:207871 ps, 157 ps );
+#    Time: 207871 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[1][7] 
+# ** Error: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_primitives.v(294): $hold( posedge clk &&& sloaddata:207821 ps, asdata:207888 ps, 157 ps );
+#    Time: 207888 ps  Iteration: 0  Instance: /FinalSubmission_tb/dut/\RF1|Registers[1][5] 
+# ** Note: $stop    : D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv(65)
+#    Time: 1010 ns  Iteration: 0  Instance: /FinalSubmission_tb
+# Break in Module FinalSubmission_tb at D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv line 65
+# End time: 15:29:20 on Mar 15,2022, Elapsed time: 1:13:25
+# Errors: 15, Warnings: 3

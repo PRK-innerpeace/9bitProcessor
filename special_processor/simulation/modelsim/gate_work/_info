@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Program coding/Verilog project/special_processor/simulation/modelsim
+vFinalSubmission_tb
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1647324955
+!i10b 1
+!s100 FW[^]gDQSZOk67JFVkQak3
+I:iWzFiiAz74MZa^G;RC1g2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 FinalSubmission_tb_sv_unit
+S1
+R0
+w1647317999
+8D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv
+FD:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv
+L0 16
+Z4 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1647324955.000000
+!s107 D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Program coding/Verilog project/special_processor|D:/Program coding/Verilog project/special_processor/FinalSubmission_tb.sv|
+!i113 1
+Z5 o-sv -work work
+!s92 -sv -work work {+incdir+D:/Program coding/Verilog project/special_processor}
+n@final@submission_tb
+vTopLevel
+R1
+R2
+!i10b 1
+!s100 ZTC:1T?ScPTXKhfIALemo3
+IfdKi<k=nh0>NNHeFhTGUz2
+R3
+!s105 specific_cpu_6_1200mv_85c_slow_svo_unit
+S1
+R0
+w1647324937
+8specific_cpu_6_1200mv_85c_slow.svo
+Fspecific_cpu_6_1200mv_85c_slow.svo
+L0 32
+R4
+r1
+!s85 0
+31
+!s108 1647324954.000000
+!s107 specific_cpu_6_1200mv_85c_slow.svo|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+.|specific_cpu_6_1200mv_85c_slow.svo|
+!i113 1
+R5
+!s92 -sv -work work +incdir+.
+n@top@level

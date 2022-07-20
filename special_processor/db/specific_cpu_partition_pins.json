@@ -1,0 +1,273 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "RegDatatestOutA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RegDatatestOutB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_number[9]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_inputdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Immediate[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Immediate[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Immediate[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Immediate[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Immediate[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Immediate[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Immediate[7]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[7]",
+					"strict" : false
+				},
+				{
+					"name" : "inst_information[8]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[4]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[5]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[6]",
+					"strict" : false
+				},
+				{
+					"name" : "datamemory_output[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AddressB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
